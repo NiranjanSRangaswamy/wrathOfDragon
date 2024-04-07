@@ -1,0 +1,47 @@
+const cameraPosition = [
+    { x: -67, y: 14, z: 31 },
+    { x: -25, y: 3, z: 15 }, 
+    { x: -13, y: 36.2, z: 25 },
+    { x: 42, y: 27, z: -7 },
+    { x: 1, y: 3, z: 20 },
+    { x: -7, y: 1, z: -40 },
+    { x: 0, y: 3, z: -55 },
+    { x: 2, y: 2, z: -48 },
+    { x: -5, y: 9, z: -34 },
+    { x: 10, y: 7, z: -45 },
+    { x: 0, y: 12, z: -63 },
+    { x: 0, y: 12, z: -23 },
+    { x: -94, y: 64, z: 74 },
+];
+const cameraRotation = [
+    { x: 0, y: 4.75, z: 0 },
+    { x: 5.8 - Math.PI * 2, y: 4, z: 6 - Math.PI * 2 }, 
+    { x: 0, y: 3.6, z: 0 },
+    { x: 0, y: 2.5, z: 0 },
+    { x: 5.9 - Math.PI * 2, y: 0.5, z: 0.2 },
+    { x: 0, y: 5.3 - Math.PI * 2, z: 0 },
+    { x: 0, y: 3.6 - Math.PI * 2, z: 0 },
+    { x: 0, y: 0.4 - Math.PI * 2, z: 0 },
+    { x: 0, y: 0.4 - Math.PI * 2, z: 0 },
+    { x: 0, y: 4.5 - Math.PI * 2, z: 0 },
+    { x: 6.1 - Math.PI * 2, y: 0, z: 0 },
+    { x: 0.3, y: 0, z: 0 },
+    { x: 6 - Math.PI * 2, y: 5.6 - Math.PI * 2, z: 6.1 - Math.PI * 2 },
+];
+const titles = [
+    "Dragon vs Wizard",
+    "Dragon vs Wizard",
+    "Dragon Dark",
+    "Dragon Dark",
+    "Dragon Hunter Wizard",
+    "Dragon vs Warrior",
+    "Dragon Green",
+    "Warrior (Dragon Hunter)",
+    "Fire Torch",
+    "Water Well",
+    "Dragon eggs",
+    "Fortress",
+    "The Wrath of Dragon",
+];
+
+export {cameraPosition,cameraRotation,titles}
